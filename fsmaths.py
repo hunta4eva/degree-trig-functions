@@ -11,6 +11,3 @@ def acos(x):
     return math.degrees(math.acos(x))
 def atan(x):
     return math.degrees(math.atan(x))
-def get_uni(unicode):
-    x=int(unicode,16)
-    return f'{x:c}'
